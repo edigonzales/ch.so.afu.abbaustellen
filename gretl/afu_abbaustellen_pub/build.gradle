@@ -18,7 +18,7 @@ buildscript {
 
 apply plugin: "ch.so.agi.gretl"
 
-defaultTasks: 'fubar'
+defaultTasks 'fubar'
 
 tasks.register('fubar') {
     doLast {
