@@ -10,6 +10,6 @@ tasks.register('importData', Ili2pgImport) {
     dbschema = "afu_abbaustellen_pub_v2"
     models = "SO_AFU_ABBAUSTELLEN_Publikation_20221103"
     dataFile = "ilidata:ch.so.afu.abbaustellen"
-    disableValidation = false
+    disableValidation = true
 }
 
